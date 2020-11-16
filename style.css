@@ -1,0 +1,120 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+#container {
+    max-width: 100%;
+    margin: auto;  
+}
+
+header {
+    background-color: white;
+    width: 100%;
+    position: fixed;
+    top: 0;
+}
+
+.logo {
+    padding: 40px;
+}
+
+#menu {
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}
+
+.linksMenu {
+    text-decoration: none;
+    color: rgb(27, 26, 26);
+}
+
+.linksMenu:visited {
+    color: rgb(27, 26, 26);
+}
+
+.linksMenu:hover {
+    color: rgb(209, 40, 68);
+    font-weight: bold;
+}
+
+.li {
+    list-style: none;
+    font-family: 'Cormorant Garamond', serif;
+    font-size: 25px;
+    color: rgb(27, 26, 26);
+    float: left;
+    padding: 15px;
+}
+
+#main {
+    background-color: white;
+    width: 100%;
+    padding: 170px 0;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(97, 97, 97);
+}
+
+
+#contato {
+    width: 100%;
+    padding-top: 170px;
+}
+
+h1 {
+    font-family: 'Cormorant Garamond', serif;
+    text-align: center;
+    padding: 20px;
+
+}
+
+p {
+    margin-left: 80px;
+    margin-right: 80px;
+    text-align: justify;
+    font-size: 18px;
+    padding: 5px;
+}
+
+#imagem2 {
+    margin-top: 40px;
+}
+
+.linksContato {
+    padding: 20px;
+}
+
+#icones{
+text-align: center;
+padding-bottom: 40px;
+}
+
+.linksContato:visited {
+    color: rgb(27, 26, 26);
+}
+
+#localizacao {
+    width: 100%;
+    padding-top: 170px;
+    text-align: center;
+    padding-bottom: 40px;
+}
+
+.mapa {
+    text-align: center;
+}
+
+#imagem4{
+
+
+ text-align: center;
+}
+
+.rodape {
+    text-align: center;
+    font-size: 12px;
+    font-family: Arial, Helvetica, sans-serif;
+}
