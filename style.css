@@ -5,20 +5,28 @@
 
 #container {
     max-width: 100%;
-    margin-left: 10%;
-    margin-right: 10%;
-    padding-top: 1px;
-    
 }
 
 .header {
-    background-color:white;
-    width: 80%;
+    width: 100%;
+    background-color: white;
     top: 0;
     text-align: center;
     position: fixed;
+    height: auto;
 }
 
+.logo {
+    max-width: 80%;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+#menu {
+    max-width: 40%;
+    margin-left: 30%;
+    margin-right: 30%;
+}
 
 .linksMenu {
     text-decoration: none;
@@ -37,7 +45,7 @@
 .li {
     list-style: none;
     font-family: 'Cormorant Garamond', serif;
-    font-size: 25px;
+    font-size: 22px;
     color: rgb(27, 26, 26);
     display: inline-block;
     padding: 10px;
@@ -46,24 +54,25 @@
 #main {
     background-color: white;
     width: 100%;
-    padding: 170px 0;
+    padding: 40px 0;
     font-family: Arial, Helvetica, sans-serif;
     color: rgb(97, 97, 97);
 }
 
-#imagemInicial{
-margin-top: 330px;
-
+#imagemInicial {
+    max-width: 100%;
+    height: auto;
+    padding-top: 290px;
 }
 
-#quemSomos{
+#quemSomos {
     width: 100%;
-    padding-top: 150px;
+    padding-top: 310px;
 }
 
 #contato {
     width: 100%;
-    padding-top: 320px;
+    padding-top: 310px;
 }
 
 h1 {
@@ -82,6 +91,8 @@ p {
 }
 
 #imagem2 {
+    max-width: 100%;
+    height: auto;
     margin-top: 40px;
 }
 
@@ -89,18 +100,23 @@ p {
     padding: 20px;
 }
 
-#icones{
-text-align: center;
-padding-bottom: 40px;
+#icones {
+    text-align: center;
+    padding-bottom: 40px;
 }
 
 .linksContato:visited {
     color: rgb(27, 26, 26);
 }
 
+.imagem3 {
+    max-width: 100%;
+    height: auto;
+}
+
 #localizacao {
     width: 100%;
-    padding-top: 320px;
+    padding-top: 310px;
     padding-bottom: 40px;
 }
 
@@ -108,8 +124,10 @@ padding-bottom: 40px;
     text-align: center;
 }
 
-#imagem4{
- text-align: center;
+#imagem4 {
+    max-width: 100%;
+    height: auto;
+    text-align: center;
 }
 
 .rodape {
