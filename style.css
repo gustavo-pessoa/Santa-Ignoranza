@@ -5,27 +5,20 @@
 
 #container {
     max-width: 100%;
-    margin: auto;  
+    margin-left: 10%;
+    margin-right: 10%;
+    padding-top: 1px;
+    
 }
 
-header {
-    background-color: white;
-    width: 100%;
-    position: fixed;
+.header {
+    background-color:white;
+    width: 80%;
     top: 0;
+    text-align: center;
+    position: fixed;
 }
 
-.logo {
-    padding: 40px;
-}
-
-#menu {
-    position: absolute;
-    top: 60%;
-    left: 50%;
-    -ms-transform: translate(-50%, -50%);
-    transform: translate(-50%, -50%);
-}
 
 .linksMenu {
     text-decoration: none;
@@ -46,8 +39,8 @@ header {
     font-family: 'Cormorant Garamond', serif;
     font-size: 25px;
     color: rgb(27, 26, 26);
-    float: left;
-    padding: 15px;
+    display: inline-block;
+    padding: 10px;
 }
 
 #main {
@@ -58,10 +51,19 @@ header {
     color: rgb(97, 97, 97);
 }
 
+#imagemInicial{
+margin-top: 330px;
+
+}
+
+#quemSomos{
+    width: 100%;
+    padding-top: 150px;
+}
 
 #contato {
     width: 100%;
-    padding-top: 170px;
+    padding-top: 320px;
 }
 
 h1 {
@@ -98,8 +100,7 @@ padding-bottom: 40px;
 
 #localizacao {
     width: 100%;
-    padding-top: 170px;
-    text-align: center;
+    padding-top: 320px;
     padding-bottom: 40px;
 }
 
@@ -108,8 +109,6 @@ padding-bottom: 40px;
 }
 
 #imagem4{
-
-
  text-align: center;
 }
 
